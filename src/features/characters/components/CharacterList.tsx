@@ -39,8 +39,6 @@ const CharacterList = () => {
 
     return (
         <section className={`py-4 md:py-6 px-4 md:px-8 pb-0!`}>
-
-
             <div className="max-w-7xl mx-auto flex flex-col gap-8 lg:max-h-[400px]">
                 <div className="flex justify-between items-center flex-wrap">
                     <SearchBar onSearch={handleSearch} />
